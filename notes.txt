@@ -1,0 +1,4 @@
+
+# Push just the web part
+
+git subtree push --prefix gate heroku master

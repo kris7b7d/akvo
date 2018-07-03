@@ -7,7 +7,8 @@
     "dev": "nodemon server/server.js",
     "test": "export NODE_ENV=test || SET \"NODE_ENV=test\" && mocha test/*.test.js --exit",
     "test-watch": "nodemon --exec \"npm test\"",
-    "start": "node server/server.js"
+    "start": "node server/server.js",
+    "deploy": "git subtree push --prefix gate heroku master"
   },
   "engines": {
     "node": "10.1.0"
