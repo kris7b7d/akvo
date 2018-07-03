@@ -1,0 +1,6 @@
+temp/
+node_modules/
+sample/
+offline/
+config.json
+playground/
