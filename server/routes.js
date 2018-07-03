@@ -1,6 +1,6 @@
-module.exports = (function() {
+module.exports = (function(debug) {
   'use strict';
-  //const _ = require('lodash');
+  const _ = require('lodash');
   const faker = require("faker");
   const routes = require('express').Router();
 
